@@ -1,0 +1,23 @@
+{
+  "imsi": "001010000000001",
+  "subscriber_status": 0,
+  "operator_determined_barring": 0,
+  "security": {
+    "k": "00000000000000000000000000000000",
+    "opc": "00000000000000000000000000000000",
+    "amf": "8000"
+  },
+  "slice": [
+    {
+      "sst": 1,
+      "default_indicator": true,
+      "session": [
+        {
+          "name": "internet",
+          "type": 1
+        }
+      ]
+    }
+  ],
+  "_warning": "Datos exclusivamente sintéticos. Registrar el abonado mediante el WebUI o el método compatible con la versión instalada."
+}

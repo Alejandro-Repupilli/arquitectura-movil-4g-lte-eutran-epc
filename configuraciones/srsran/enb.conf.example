@@ -1,0 +1,18 @@
+# Fragmento público: integrar en la plantilla enb.conf de srsRAN 4G release_25_10
+
+enb_id = 0x19B
+mcc = 001
+mnc = 01
+mme_addr = 192.168.110.10
+gtp_bind_addr = 192.168.110.20
+s1c_bind_addr = 192.168.110.20
+n_prb = 25
+
+[rf]
+tx_gain = 80
+rx_gain = 40
+device_name = zmq
+device_args = fail_on_disconnect=true,tx_port=tcp://*:2000,rx_port=tcp://localhost:2001,id=enb,base_srate=23.04e6
+
+# En rr.conf:
+# tac = 0x0001;

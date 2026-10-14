@@ -1,0 +1,17 @@
+# Fragmento público: integrar en la plantilla mme.yaml de Open5GS 2.8
+
+mme:
+  s1ap:
+    server:
+      - address: 192.168.110.10
+  gummei:
+    - plmn_id:
+        mcc: 001
+        mnc: 01
+      mme_gid: 2
+      mme_code: 1
+  tai:
+    - plmn_id:
+        mcc: 001
+        mnc: 01
+      tac: 1

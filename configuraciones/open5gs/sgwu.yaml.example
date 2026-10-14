@@ -1,0 +1,6 @@
+# Fragmento público: integrar en la plantilla sgwu.yaml de Open5GS 2.8
+
+sgwu:
+  gtpu:
+    server:
+      - address: 192.168.110.10
